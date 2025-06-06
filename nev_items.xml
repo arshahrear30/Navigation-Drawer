@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--  res folder a Mouse Right Side Click >
+     New >Android Resource Directory > Resource type : menu >
+     তাহলে এবার আমরা দেখব menu নামে একটা ফোল্ডার তৈরি হয়ে গিয়েছে ।
+     এবার menu এর মধ্যে mouse right click দিবো > New >
+     Menu Resource File>যেকোনো একটা নাম দেও । -->
+
+    <group >
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/icon_home_24"
+        android:checkable="true"
+        />
+        <!-- checkable ব্যবহার করার ফলে click দেওয়া menu গুলোর উপর
+        একটি sade এসে থাকবে । সুন্দর -->
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_profile_24"
+        android:checkable="true"
+        />
+        <!-- icon গুলো  drawable এ Mouse right
+        click >New >Vector Asset > Clip Art & Name Set  -->
+    <item
+        android:id="@+id/notification"
+        android:title="Notification"
+        android:icon="@drawable/baseline_circle_notifications_24"
+        android:checkable="true"
+        />
+    </group>
+
+
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/setting"
+            android:title="Setting"
+            android:icon="@drawable/sharp_background_grid_small_24"
+            android:checkable="true"
+            />
+    </group>
+
+
+</menu>
