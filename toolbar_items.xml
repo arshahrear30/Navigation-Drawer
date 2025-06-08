@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--  res folder a Mouse Right Side Click >
+     New >Android Resource Directory > Resource type : menu >
+     তাহলে এবার আমরা দেখব menu নামে একটা ফোল্ডার তৈরি হয়ে গিয়েছে ।
+     এবার menu এর মধ্যে mouse right click দিবো > New >
+     Menu Resource File>যেকোনো একটা নাম দেও । -->
+
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/item_share"
+        android:title="Share"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        />
+
+
+
+    <item
+        android:id="@+id/Done"
+        android:icon="@drawable/item_correct"
+        android:title="Done"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/white"
+        />
+
+
+</menu>
