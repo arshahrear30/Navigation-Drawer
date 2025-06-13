@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
         //এবার normal ভাবেই headerTitle কে headerview এর মাধ্যমে পরিচয় করাই দিলাম ।
 
         headerview=navigationView.getHeaderView(0);
+//0 ধরছি কারণ ০ থেকে শুরু
         headerTitle=headerview.findViewById(R.id.headerTitle);
         headerimage=headerview.findViewById(R.id.headerimage);
 
