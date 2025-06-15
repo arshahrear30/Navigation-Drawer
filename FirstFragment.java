@@ -26,6 +26,8 @@ public class FirstFragment extends Fragment {
 //WEB_url ধরলাম সেটা ও public static String এর মধ্যে রাখলাম যাতে MainActivity তে Access করা যায় ।
 // চাইলো এখানে "" ব্যবহার করে মাঝে link দিলে ও হইতো ।
 
+//best practice 
+
 
         return myView ;
     }
